@@ -1,0 +1,10 @@
+downloads
+.idea
+.env
+artifacts
+node_modules
+helpers/api/currentToken.json
+TODO.txt
+.vscode
+.DS_Store
+ignored

@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2019",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false,
+    "types": [
+      "node",
+      "@wdio/devtools-service",
+      "@types/mocha",
+      "@types/chai",
+      "chai",
+      "@wdio/sync",
+      "@types/faker",
+      "@wdio/globals/types"
+    ]
+  },
+  "include": [
+    "./**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "typescript",
+    "artifacts"
+  ]
+}
